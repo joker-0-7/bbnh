@@ -1,0 +1,13 @@
+.spans span:nth-child(4){
+    background-color: #219A55 ;
+}
+form input:not(:first-child){
+    border: 1px solid #219A55;
+    outline: none;
+    padding: 6px;
+    width: 70%;
+    height: 50px;
+}
+form input:focus{
+    outline: none;
+}
