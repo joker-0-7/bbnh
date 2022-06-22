@@ -1,0 +1,29 @@
+.spans span:nth-child(2){
+    background-color: #219A55 ;
+}
+.formt div{
+    text-align: center;
+}
+.formt div:last-child{
+        height: 40px;
+        width: 70%;
+        /* margin-top: -50px; */
+        margin-left: auto;
+        margin-right: auto;
+}
+form{
+    flex-direction:unset;
+    align-items: unset;
+    width: unset;
+    flex-wrap: wrap;
+}
+form div input,
+form select{
+    border: 1px solid #219A55;
+    outline: none;
+    padding: 6px;
+    width: 300px;
+}
+form input:focus{
+    outline: none;
+}
